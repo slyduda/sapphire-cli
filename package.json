@@ -1,0 +1,36 @@
+{
+  "name": "@slyduda/sapphire-cli",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap my new projects",
+  "main": "src/index.js",
+  "bin": {
+    "@slyduda/sapphire-cli": "bin/sapphire-cli.js",
+    "sapphire-cli": "bin/sapphire-cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "sapphire-cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "cheerio": "^1.0.0-rc.12",
+    "esm": "^3.2.25",
+    "execa": "^5.1.1",
+    "glob": "^8.0.3",
+    "listr": "^0.14.3",
+    "markdown-link-extractor": "^3.1.0",
+    "node-fetch": "^3.2.10",
+    "parse-md": "^2.0.5",
+    "prompts": "^2.4.2",
+    "request": "^2.88.2",
+    "uuid": "^9.0.0"
+  }
+}
