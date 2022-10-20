@@ -1,6 +1,6 @@
 {
   "name": "@slyduda/sapphire-cli",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A CLI to bootstrap my new projects",
   "main": "src/index.js",
   "bin": {
